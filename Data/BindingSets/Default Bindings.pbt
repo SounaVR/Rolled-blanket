@@ -143,62 +143,6 @@ Assets {
     }
     Bindings {
       BindingType {
-        Value: "mc:ebindingtype:directional"
-      }
-      DirectionalBindingData {
-        UpInputs {
-          KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:w"
-          }
-          KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
-          }
-          Controller {
-            Value: "mc:ebindinggamepad:leftstickup"
-          }
-        }
-        LeftInputs {
-          KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:a"
-          }
-          KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
-          }
-          Controller {
-            Value: "mc:ebindinggamepad:leftstickleft"
-          }
-        }
-        DownInputs {
-          KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:s"
-          }
-          KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
-          }
-          Controller {
-            Value: "mc:ebindinggamepad:leftstickdown"
-          }
-        }
-        RightInputs {
-          KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:d"
-          }
-          KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
-          }
-          Controller {
-            Value: "mc:ebindinggamepad:leftstickright"
-          }
-        }
-      }
-      Action: "Move"
-      Description: "Moves the character."
-      CoreBehavior {
-        Value: "mc:ecorebehavior:move"
-      }
-    }
-    Bindings {
-      BindingType {
         Value: "mc:ebindingtype:axis"
       }
       AxisBindingData {
@@ -331,7 +275,7 @@ Assets {
             Value: "mc:ebindingkeyboard:w"
           }
           KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
+            Value: "mc:ebindingkeyboard:z"
           }
           Controller {
             Value: "mc:ebindinggamepad:righttrigger"
@@ -388,7 +332,7 @@ Assets {
             Value: "mc:ebindingkeyboard:a"
           }
           KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:none"
+            Value: "mc:ebindingkeyboard:q"
           }
           Controller {
             Value: "mc:ebindinggamepad:leftstickleft"
@@ -467,6 +411,108 @@ Assets {
       Action: "PushToTalk"
       CoreBehavior {
         Value: "mc:ecorebehavior:pushtotalk"
+      }
+    }
+    Bindings {
+      BindingType {
+        Value: "mc:ebindingtype:directional"
+      }
+      DirectionalBindingData {
+        UpInputs {
+          KeyboardPrimary {
+            Value: "mc:ebindingkeyboard:w"
+          }
+          KeyboardSecondary {
+            Value: "mc:ebindingkeyboard:z"
+          }
+          Controller {
+            Value: "mc:ebindinggamepad:leftstickup"
+          }
+        }
+        LeftInputs {
+          KeyboardPrimary {
+            Value: "mc:ebindingkeyboard:a"
+          }
+          KeyboardSecondary {
+            Value: "mc:ebindingkeyboard:q"
+          }
+          Controller {
+            Value: "mc:ebindinggamepad:leftstickleft"
+          }
+        }
+        DownInputs {
+          KeyboardPrimary {
+            Value: "mc:ebindingkeyboard:s"
+          }
+          KeyboardSecondary {
+            Value: "mc:ebindingkeyboard:none"
+          }
+          Controller {
+            Value: "mc:ebindinggamepad:none"
+          }
+        }
+        RightInputs {
+          KeyboardPrimary {
+            Value: "mc:ebindingkeyboard:d"
+          }
+          KeyboardSecondary {
+            Value: "mc:ebindingkeyboard:none"
+          }
+          Controller {
+            Value: "mc:ebindinggamepad:none"
+          }
+        }
+      }
+      Action: "Move"
+      Description: "Move the actor."
+      CoreBehavior {
+        Value: "mc:ecorebehavior:move"
+      }
+    }
+    Bindings {
+      BindingType {
+        Value: "mc:ebindingtype:basic"
+      }
+      BasicBindingData {
+        BasicInputs {
+          KeyboardPrimary {
+            Value: "mc:ebindingkeyboard:e"
+          }
+          KeyboardSecondary {
+            Value: "mc:ebindingkeyboard:none"
+          }
+          Controller {
+            Value: "mc:ebindinggamepad:dpaddown"
+          }
+        }
+      }
+      Action: "Flashlight"
+      Description: "Toggle the flashlight."
+      CoreBehavior {
+        Value: "mc:ecorebehavior:none"
+      }
+    }
+    Bindings {
+      BindingType {
+        Value: "mc:ebindingtype:basic"
+      }
+      BasicBindingData {
+        BasicInputs {
+          KeyboardPrimary {
+            Value: "mc:ebindingkeyboard:tab"
+          }
+          KeyboardSecondary {
+            Value: "mc:ebindingkeyboard:none"
+          }
+          Controller {
+            Value: "mc:ebindinggamepad:none"
+          }
+        }
+      }
+      Action: "Scoreboard"
+      Description: "Displays the scoreboard."
+      CoreBehavior {
+        Value: "mc:ecorebehavior:none"
       }
     }
   }

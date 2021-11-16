@@ -18,9 +18,9 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 -- Internal custom properties
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local TRIGGER = script:GetCustomProperty("Trigger"):WaitForObject()
+local OBJECT = script:GetCustomProperty("Object"):WaitForObject()
 
 -- User exposed properties
-local HEALTH_CHANGE = COMPONENT_ROOT:GetCustomProperty("HealthChange")
 local RESOURCE = COMPONENT_ROOT:GetCustomProperty("Resource")
 local RESOURCE_CHANGE = COMPONENT_ROOT:GetCustomProperty("ResourceChange")
 local MAX_RESOURCE = COMPONENT_ROOT:GetCustomProperty("MaxResource")
@@ -40,19 +40,12 @@ end
 -- nil OnBeginOverlap(Trigger, CoreObject)
 -- Change the player's resources, broadcast an event, and self-destruct
 function OnBeginOverlap(trigger, other)
-	if other:IsA("Player") then
+	if other:IsA("CoreObject") then
 		local applied = false
-
-		if HEALTH_CHANGE ~= 0.0 then
-			if (other.hitPoints < other.maxHitPoints and HEALTH_CHANGE > 0.0) or HEALTH_CHANGE < 0.0 then
-				applied = true
-			end
-
-			other:ApplyDamage(Damage.New(-HEALTH_CHANGE))
-		end
+		local nearestPlayer = Game.FindNearestPlayer(script:GetWorldPosition())
 		
 		if RESOURCE ~= "" then
-			local currentResource = other:GetResource(RESOURCE)
+			local currentResource = nearestPlayer:GetResource(RESOURCE)
 			local newResource = currentResource + RESOURCE_CHANGE
 
 			if MAX_RESOURCE > 0 then
@@ -63,10 +56,11 @@ function OnBeginOverlap(trigger, other)
 
 			if newResource ~= currentResource then
 				applied = true
-				other:SetResource(RESOURCE, newResource)
+				nearestPlayer:SetResource(RESOURCE, newResource)
 			end
 		end
-
+		
+		
 		if applied then
 			if PICKUP_EFFECTS then
 				-- This is about to be destroyed, but we want the effects to persist, so they can't be parented
@@ -85,7 +79,7 @@ end
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 
 for _, player in pairs(Game.GetPlayers()) do
-	if TRIGGER:IsOverlapping(player) then
-		OnBeginOverlap(TRIGGER, player)
+	if TRIGGER:IsOverlapping(OBJECT) then
+		OnBeginOverlap(TRIGGER, OBJECT)
 	end
 end

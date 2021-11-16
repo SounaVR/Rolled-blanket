@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15326326661848043911
-  Name: "Bark Birch 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bark_birch_001_uv"
-  }
-}
-Assets {
   Id: 14727251023745255967
   Name: "Humanoid 1 Rig"
   PlatformAssetType: 25
@@ -26,12 +17,48 @@ Assets {
   }
 }
 Assets {
-  Id: 12540332601201265885
-  Name: "Humanoid 1 Aparna"
+  Id: 14026822603122554277
+  Name: "Amarante"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "AmaranteRegular_ref"
+  }
+}
+Assets {
+  Id: 13964540555758004606
+  Name: "Grass Brush Foliage Movement 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_grass_brush_foliage_movement_01a_Cue_ref"
+  }
+}
+Assets {
+  Id: 13760249901997998093
+  Name: "Humanoid 1 Peasant Shirt"
   PlatformAssetType: 26
   PrimaryAsset {
     AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_008_ref"
+    AssetId: "npc_human_gal_upper_fantasy_000_ref"
+  }
+}
+Assets {
+  Id: 12891613213664917379
+  Name: "Stone Block Standard"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fantasy_block_01"
+  }
+}
+Assets {
+  Id: 12095835209017042614
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
   }
 }
 Assets {
@@ -44,21 +71,21 @@ Assets {
   }
 }
 Assets {
-  Id: 9573824406219941385
-  Name: "Cardboard Basic 01"
+  Id: 11503867676375549321
+  Name: "Stucco Tintable"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_cardboard_001_uv_ref"
+    AssetId: "mi_stucco_tint_001_uv"
   }
 }
 Assets {
-  Id: 9338804965337916728
-  Name: "Humanoid 1 Racer Jumpsuit Top"
+  Id: 8589795914456209586
+  Name: "Humanoid 1 Peasant Pants"
   PlatformAssetType: 26
   PrimaryAsset {
     AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_upper_sport_003_ref"
+    AssetId: "npc_human_gal_lower_fantasy_000_ref"
   }
 }
 Assets {
@@ -71,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7674924119329561053
+  Name: "Tree Birch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_birch_001"
+  }
+}
+Assets {
   Id: 6299806944976328056
   Name: "Donut"
   PlatformAssetType: 1
@@ -80,20 +116,56 @@ Assets {
   }
 }
 Assets {
-  Id: 5442177561758209535
-  Name: "Humanoid 1 Racer Jumpsuit Pants"
-  PlatformAssetType: 26
+  Id: 6273309632508979291
+  Name: "Stone Block Standard Broken"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_lower_sport_003_ref"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fantasy_block_broken_01"
   }
 }
 Assets {
-  Id: 4612313676799723796
-  Name: "Humanoid 1 Racer Jumpsuit Helmet"
+  Id: 3863197621158056727
+  Name: "Humanoid 1 Sonia Hair"
   PlatformAssetType: 26
   PrimaryAsset {
     AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_hat_sport_003_ref"
+    AssetId: "npc_human_gal_hair_sport_001_ref"
+  }
+}
+Assets {
+  Id: 3134334559466277683
+  Name: "Grass Short"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002"
+  }
+}
+Assets {
+  Id: 2719732194574913068
+  Name: "Gem - Diamond 8-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_diamond_8_sided_polished_001"
+  }
+}
+Assets {
+  Id: 2186490967521575084
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
+  }
+}
+Assets {
+  Id: 1899053447633512547
+  Name: "Humanoid 1 Zoe"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_head_basic_005_ref"
   }
 }
