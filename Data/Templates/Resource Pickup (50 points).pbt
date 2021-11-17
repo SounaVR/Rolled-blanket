@@ -205,7 +205,7 @@ Assets {
       }
       Objects {
         Id: 8374281711860997801
-        Name: "Gem - Diamond 8-Sided Polished"
+        Name: "TriggerPointsGreen"
         Transform {
           Location {
             Z: 24.9998322

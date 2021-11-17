@@ -1,1 +1,1 @@
-MainScene: "Main"
+MainScene: "Lobby"

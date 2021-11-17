@@ -1,0 +1,1 @@
+script.parent:RotateContinuous(Vector3.New(0, 0, 0.5), true)

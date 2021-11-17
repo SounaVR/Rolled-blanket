@@ -1,4 +1,3 @@
-
 local DefaultSpeed = script:GetCustomProperty("BaseSpeed")
 local SprintSpeed = script:GetCustomProperty("SprintSpeed")
 local HealthFallRate = script:GetCustomProperty("LoseHealthIFswimming")

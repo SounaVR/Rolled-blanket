@@ -4,7 +4,6 @@ local AirRate = script:GetCustomProperty("AirChange")
 local AirBar = script:GetCustomProperty("AirUI"):WaitForObject()
 local swimming = false
 
-
 --Detect if the player is swimming or not, and adjusts the UI bar visibility
 function OnMovementModeChanged(player, mode)
     if mode == MovementMode.SWIMMING then

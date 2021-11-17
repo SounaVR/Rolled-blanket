@@ -1,11 +1,3 @@
---[[
-	FPS Meter - Client
-	v1.0
-	by: standardcombo
-	
-	See the FPSMeter_README for information about this module.
---]]
-
 local UI_TEXT = script:GetCustomProperty("UIText")
 if UI_TEXT and UI_TEXT.isAssigned then
 	UI_TEXT = UI_TEXT:WaitForObject()
@@ -18,10 +10,8 @@ local PRINT_TO_SCREEN = script:GetCustomProperty("PrintToScreen")
 
 local WEIGHT = script:GetCustomProperty("RollingWeight") or 0.2
 
-
 local averageDeltaTime = 1 / 60
 local printToScreenDelay = 0
-
 
 function Tick(deltaTime)
 	averageDeltaTime = averageDeltaTime * (1 - WEIGHT) + deltaTime * WEIGHT
@@ -68,4 +58,3 @@ local function OnFrameRateRequest()
 end
 
 Events.Connect("FrameRateRequest", OnFrameRateRequest)
-

@@ -15,8 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 2002658007863834787
+        ParentId: 9086936746104183945
         ChildIds: 2707027915564932949
         ChildIds: 4095653886179103582
         Collidable_v2 {
@@ -30,36 +29,6 @@ Assets {
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 2002658007863834787
-        Name: "READ-ME"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5453334570220234187
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 8024188116624678449
-          }
         }
       }
       Objects {
@@ -209,7 +178,7 @@ Assets {
           }
           Overrides {
             Name: "cs:StaminaChange"
-            Float: 10
+            Float: 30
           }
           Overrides {
             Name: "cs:MaximumStamina"
@@ -500,12 +469,13 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 20
+            Size: 25
             Justification {
               Value: "mc:etextjustify:center"
             }
             ClipTextToSize: true
             Font {
+              Id: 14026822603122554277
             }
           }
           AnchorLayout {
@@ -558,13 +528,14 @@ Assets {
           }
           StatBar {
             Color {
-              R: 0.0586092249
-              G: 0.149999976
+              R: 0.13
+              G: 0.775297821
+              B: 1
               A: 1
             }
             BackgroundColor {
-              R: 0.0523841418
-              G: 0.0700000525
+              R: 0.299999952
+              G: 0.0596026443
               A: 1
             }
             FillBrush {
@@ -729,6 +700,15 @@ Assets {
       PrimaryAsset {
         AssetType: "BlueprintAssetRef"
         AssetId: "fxbp_ppm_radial_blur"
+      }
+    }
+    Assets {
+      Id: 14026822603122554277
+      Name: "Amarante"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "AmaranteRegular_ref"
       }
     }
     PrimaryAssetId {

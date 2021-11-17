@@ -15,11 +15,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 18237440961422095633
+        ParentId: 17903971289932226018
         UnregisteredParameters {
           Overrides {
             Name: "cs:Object"
             ObjectReference {
+              SelfId: 14968816951873412500
             }
           }
           Overrides {
@@ -63,6 +64,7 @@ Assets {
             String: "Smoothly rotates the object over time by the given angular velocity."
           }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

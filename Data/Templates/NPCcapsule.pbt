@@ -7,12 +7,12 @@ Assets {
       RootId: 5573425663046254538
       Objects {
         Id: 5573425663046254538
-        Name: "Physics Capsule"
+        Name: "NPCcapsule"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.955661178
+            Y: 0.955661178
+            Z: 0.955661178
           }
         }
         ParentId: 5322749035492626403
@@ -64,13 +64,17 @@ Assets {
         Name: "ClientContext"
         Transform {
           Location {
+            Y: -1.83528054
+            Z: -0.343348652
           }
           Rotation {
+            Yaw: 1.39698623e-13
+            Roll: 7.26672761e-06
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.04639602
+            Y: 1.04639602
+            Z: 1.04639602
           }
         }
         ParentId: 5573425663046254538

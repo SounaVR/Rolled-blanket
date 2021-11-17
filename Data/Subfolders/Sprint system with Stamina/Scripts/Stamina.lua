@@ -99,5 +99,3 @@ end
 -- hook up binding in player joined event here, move to more appropriate place if needed
 player.bindingPressedEvent:Connect(OnBindingPressed)
 player.bindingReleasedEvent:Connect(OnBindingReleased)
-
-

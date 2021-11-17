@@ -15,12 +15,16 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8209215257691499669
+        ParentId: 4781671109827199097
         ChildIds: 782438861213269937
         UnregisteredParameters {
           Overrides {
+            Name: "cs:ResourceName"
+            String: "Points"
+          }
+          Overrides {
             Name: "cs:Binding"
-            String: "ability_extra_0"
+            String: "ability_extra_19"
           }
           Overrides {
             Name: "cs:ShowAtRoundEnd"
@@ -28,7 +32,7 @@ Assets {
           }
           Overrides {
             Name: "cs:RoundEndDuration"
-            Float: 5
+            Float: 15
           }
           Overrides {
             Name: "cs:RoundEndDuration:tooltip"

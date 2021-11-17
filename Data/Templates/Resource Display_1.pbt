@@ -15,16 +15,16 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14256649674182269152
+        ParentId: 4781671109827199097
         ChildIds: 1041871094853896994
         UnregisteredParameters {
           Overrides {
             Name: "cs:ResourceName"
-            String: "Gems"
+            String: "Points"
           }
           Overrides {
             Name: "cs:AlwaysShow"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:PopupDuration"
@@ -32,11 +32,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxValue"
-            Int: 5
-          }
-          Overrides {
-            Name: "cs:ShowProgressBar"
-            Bool: false
+            Int: 0
           }
           Overrides {
             Name: "cs:ShowText"
@@ -61,10 +57,6 @@ Assets {
           Overrides {
             Name: "cs:MaxValue:tooltip"
             String: "The maximum value of this resource (or 0 for no max)"
-          }
-          Overrides {
-            Name: "cs:ShowProgressBar:tooltip"
-            String: "Whether to show a progress bar (requires max)"
           }
           Overrides {
             Name: "cs:ShowText:tooltip"
@@ -145,12 +137,6 @@ Assets {
             Name: "cs:Panel"
             ObjectReference {
               SubObjectId: 1746532705875791238
-            }
-          }
-          Overrides {
-            Name: "cs:ProgressBar"
-            ObjectReference {
-              SubObjectId: 13241091557700086557
             }
           }
           Overrides {
@@ -248,8 +234,6 @@ Assets {
           }
         }
         ParentId: 8943966818160891236
-        ChildIds: 18038148122183794653
-        ChildIds: 13241091557700086557
         ChildIds: 13513497818209532703
         UnregisteredParameters {
         }
@@ -265,8 +249,6 @@ Assets {
         Control {
           Width: 100
           Height: 125
-          UIX: -50
-          UIY: 50
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -278,194 +260,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topright"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topright"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 18038148122183794653
-        Name: "Background"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1746532705875791238
-        ChildIds: 14059023812613610750
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 100
-          Height: 100
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 5196377603841433560
-            }
-            Color {
-              A: 0.2
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 14059023812613610750
-        Name: "Icon"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18038148122183794653
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 70
-          Height: 70
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 17387787898398217301
-            }
-            Color {
-              R: 0.955973685
-              G: 0.356400251
-              B: 0.010329823
-              A: 1
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
                 Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13241091557700086557
-        Name: "ProgressBar"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 1746532705875791238
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 100
-          Height: 22
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          StatBar {
-            Color {
-              R: 0.955973685
-              G: 0.356400251
-              B: 0.010329823
-              A: 1
-            }
-            BackgroundColor {
-              R: 0.5
-              G: 0.5
-              B: 0.5
-              A: 1
-            }
-            FillBrush {
-            }
-            BackgroundBrush {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -513,11 +313,12 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 10
+            Size: 38
             Justification {
               Value: "mc:etextjustify:center"
             }
             Font {
+              Id: 14026822603122554277
             }
           }
           AnchorLayout {
@@ -536,21 +337,12 @@ Assets {
       }
     }
     Assets {
-      Id: 5196377603841433560
-      Name: "BG Gradient 001"
-      PlatformAssetType: 9
+      Id: 14026822603122554277
+      Name: "Amarante"
+      PlatformAssetType: 28
       PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundFlat_020"
-      }
-    }
-    Assets {
-      Id: 17387787898398217301
-      Name: "Icon Gold"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Gold"
+        AssetType: "FontAssetRef"
+        AssetId: "AmaranteRegular_ref"
       }
     }
     PrimaryAssetId {

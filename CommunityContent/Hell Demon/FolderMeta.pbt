@@ -1,0 +1,87 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "b1b2b431c01b4c1d8d008588818c81e5"
+  OwnerAccountId: "e6df8617a8e94a57aae55ade80a7981f"
+  OwnerName: "marious0423"
+  Version: "1.1.0"
+}
+AssetIdsOriginalToNew {
+  key: 1116760160694603255
+  value: 14879237665565407975
+}
+AssetIdsOriginalToNew {
+  key: 1328464424770808511
+  value: 10964487220039287256
+}
+AssetIdsOriginalToNew {
+  key: 1883778736238546551
+  value: 10019166262081557026
+}
+AssetIdsOriginalToNew {
+  key: 3297256618810221432
+  value: 15825497128809934282
+}
+AssetIdsOriginalToNew {
+  key: 3509426500569471607
+  value: 2101730736823810863
+}
+AssetIdsOriginalToNew {
+  key: 5927220524009298293
+  value: 17302971327437837573
+}
+AssetIdsOriginalToNew {
+  key: 7577485333701035703
+  value: 1449312672410321517
+}
+AssetIdsOriginalToNew {
+  key: 8796479585893007930
+  value: 8793146659872871757
+}
+AssetIdsOriginalToNew {
+  key: 9770511928359673738
+  value: 22199100134369161
+}
+AssetIdsOriginalToNew {
+  key: 10862837515260375752
+  value: 11358507053116816294
+}
+AssetIdsOriginalToNew {
+  key: 11271269196469755384
+  value: 4522846076363683891
+}
+AssetIdsOriginalToNew {
+  key: 13257155059295013913
+  value: 517888337122926575
+}
+AssetIdsOriginalToNew {
+  key: 13432132177709623935
+  value: 16919143844365329951
+}
+AssetIdsOriginalToNew {
+  key: 14037148410525220323
+  value: 16759515636345654685
+}
+AssetIdsOriginalToNew {
+  key: 14373757464648078715
+  value: 9804096501632247935
+}
+AssetIdsOriginalToNew {
+  key: 14819601223479210482
+  value: 17730188843720146492
+}
+AssetIdsOriginalToNew {
+  key: 15345760362089961606
+  value: 8775032711642513891
+}
+AssetIdsOriginalToNew {
+  key: 15636749404113921442
+  value: 8534633261888830755
+}
+AssetIdsOriginalToNew {
+  key: 17367449922255341506
+  value: 15141864931092601086
+}
+AssetIdsOriginalToNew {
+  key: 17833003553828809449
+  value: 9469872863248152743
+}
