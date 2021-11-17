@@ -1,4 +1,13 @@
 Assets {
+  Id: 14372471564914388161
+  Name: "Fantasy Crossbow Stirrup 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_stirrup_cross_001"
+  }
+}
+Assets {
   Id: 11024977997119225113
   Name: "Sci-fi Cockpit Siderail 01"
   PlatformAssetType: 1
@@ -59,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_reflector_hex_003"
+  }
+}
+Assets {
+  Id: 5836430349218932838
+  Name: "Pipe - Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_003"
   }
 }
 Assets {

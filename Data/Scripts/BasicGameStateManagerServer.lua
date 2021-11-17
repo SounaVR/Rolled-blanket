@@ -86,9 +86,15 @@ function SetGameState(newState)
 	end
 
 	local oldState = GetGameState()
+	local players = Game.GetPlayers()
+	local sceneName = "Game"
 
 	-- Broadcast built-in round events
 	if oldState ~= ABGS.GAME_STATE_ROUND and newState == ABGS.GAME_STATE_ROUND then
+		for i, player in ipairs(players) do
+			player:TransferToScene(sceneName)
+			print(player)
+		end
 		Game.StartRound()
 	elseif oldState == ABGS.GAME_STATE_ROUND and newState ~= ABGS.GAME_STATE_ROUND then
 		Game.EndRound()

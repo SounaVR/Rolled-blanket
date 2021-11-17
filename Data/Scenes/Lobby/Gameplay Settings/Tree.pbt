@@ -268,7 +268,7 @@ Objects {
         ChatMode {
         }
         ChatPosition {
-          X: 40
+          Y: 250.521
         }
         ChatSize {
           X: 450
@@ -303,7 +303,7 @@ Objects {
       }
       VoiceChatSettings {
         VoiceChatMode {
-          Value: "mc:evoicechatmode:all"
+          Value: "mc:evoicechatmode:none"
         }
         VoiceChannelType {
           Value: "mc:evoicechanneltype:normal"
@@ -315,8 +315,8 @@ Objects {
         }
         AudioFadeIntensityByDistance: 1
         VoiceChatPosition {
-          X: -40
-          Y: 40
+          X: -1578.58423
+          Y: 471.898895
         }
         VoiceChatHorizontalAlignment {
           Value: "mc:ecorehorizontalalign:right"

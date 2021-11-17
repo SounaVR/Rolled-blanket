@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16219589455898320337
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
+  }
+}
+Assets {
   Id: 16131503078867448818
   Name: "Street Post Round 01"
   PlatformAssetType: 1
@@ -419,6 +428,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_light_002_ref"
+  }
+}
+Assets {
+  Id: 7917643843895697114
+  Name: "Sci-fi Console Screen 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_003_ref"
   }
 }
 Assets {

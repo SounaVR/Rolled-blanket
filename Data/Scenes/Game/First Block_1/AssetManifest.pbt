@@ -224,6 +224,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13372972268553014344
+  Name: "Ring - Beveled"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_faceted_001"
+  }
+}
+Assets {
   Id: 13083091028711513113
   Name: "Craftsman Part - Inside Lower Trim 01"
   PlatformAssetType: 1

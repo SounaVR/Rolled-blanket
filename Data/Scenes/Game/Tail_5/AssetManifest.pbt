@@ -1,4 +1,13 @@
 Assets {
+  Id: 15497712985966458783
+  Name: "Sci-fi Ship Blaster 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_blaster_002_ref"
+  }
+}
+Assets {
   Id: 13499870741455156244
   Name: "Sci-fi Chair Support 01"
   PlatformAssetType: 1

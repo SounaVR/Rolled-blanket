@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6722267691116138132
+  Name: "Fantasy Staff Grip 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_grip_staff_001"
+  }
+}
+Assets {
   Id: 4981617726646365000
   Name: "Liquid Decal"
   PlatformAssetType: 14

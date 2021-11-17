@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14372471564914388161
+  Name: "Fantasy Crossbow Stirrup 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_stirrup_cross_001"
+  }
+}
+Assets {
   Id: 13635423465082941587
   Name: "Stone Block Small Broken"
   PlatformAssetType: 1
@@ -77,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_test_001"
+  }
+}
+Assets {
+  Id: 12875975218361332960
+  Name: "Fantasy Crossbow Bow 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_bow_cross_001"
   }
 }
 Assets {
@@ -194,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torus_001"
+  }
+}
+Assets {
+  Id: 4191189716791684405
+  Name: "Pipe - Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_004"
   }
 }
 Assets {

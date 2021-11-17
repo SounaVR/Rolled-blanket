@@ -197,6 +197,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9118011185503589263
+  Name: "Wireframe"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "wireframe_glow_001"
+  }
+}
+Assets {
   Id: 9024748054601522303
   Name: "Candle Flame VFX"
   PlatformAssetType: 1

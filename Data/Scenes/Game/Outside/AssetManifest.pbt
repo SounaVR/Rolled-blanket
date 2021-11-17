@@ -98,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12510064410993333055
+  Name: "Fantasy Pommel 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_pommel_004"
+  }
+}
+Assets {
   Id: 11285278799348334020
   Name: "Sphere - Half Thin"
   PlatformAssetType: 1

@@ -22,8 +22,3 @@ function ActualizeAllText(language)
     print("ActualizeTextEvent sent")
     Events.Broadcast("ActualizeTextEvent", language)
 end
-
---==================================================================
---YOU CAN ERASE THIS
---==================================================================
-ActualizeAllText("french")
