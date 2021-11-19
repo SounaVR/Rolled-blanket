@@ -659,7 +659,7 @@ Objects {
   ParentId: 4781671109827199097
   ChildIds: 16813558807825262224
   ChildIds: 9084352228507797880
-  ChildIds: 14535745405222050036
+  ChildIds: 6133829608245401079
   ChildIds: 12757554707112708269
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
@@ -720,13 +720,46 @@ Objects {
   }
 }
 Objects {
-  Id: 14535745405222050036
+  Id: 6133829608245401079
   Name: "Walls"
   Transform {
     Location {
       X: 2439.77734
       Y: 52339.5508
       Z: 1.85095215
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5322749035492626403
+  ChildIds: 14535745405222050036
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    Model {
+    }
+  }
+}
+Objects {
+  Id: 14535745405222050036
+  Name: "Walls"
+  Transform {
+    Location {
     }
     Rotation {
       Yaw: 89.9999542
@@ -737,7 +770,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5322749035492626403
+  ParentId: 6133829608245401079
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

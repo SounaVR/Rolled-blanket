@@ -31,6 +31,7 @@ Objects {
   ChildIds: 8669710199442399587
   ChildIds: 11869158028368666061
   ChildIds: 12452048504220952323
+  ChildIds: 1078738512637436142
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,6 +44,32 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 1078738512637436142
+  Name: "Basic Game State Manager"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16086570097188718822
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic Game State Manager"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14683831798987762924
+    }
   }
 }
 Objects {
@@ -66,7 +93,7 @@ Objects {
         }
         Overrides {
           Name: "cs:RequiredPlayers"
-          Int: 2
+          Int: 1
         }
         Overrides {
           Name: "cs:CountdownTime"

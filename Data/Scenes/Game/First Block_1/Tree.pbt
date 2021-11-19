@@ -30360,15 +30360,15 @@ Objects {
   Name: "Whitebox Floor 01 8m x 8m"
   Transform {
     Location {
-      X: 869.652344
-      Y: 1538.43359
+      X: 306.617188
+      Y: -8774.76562
       Z: -76.7311859
     }
     Rotation {
     }
     Scale {
-      X: 4.07492208
-      Y: 12.62187
+      X: 9.33383083
+      Y: -53.0486145
       Z: 1
     }
   }
