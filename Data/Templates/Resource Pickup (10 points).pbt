@@ -15,15 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5322749035492626403
+        ParentId: 4781671109827199097
         ChildIds: 15665815735147290362
         ChildIds: 13629440721117334630
         ChildIds: 15288083510703424041
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:HealthChange"
-            Float: 0
-          }
           Overrides {
             Name: "cs:Resource"
             String: "Points"
@@ -33,34 +29,12 @@ Assets {
             Int: 10
           }
           Overrides {
-            Name: "cs:MaxResource"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:PickupEffects"
-            AssetReference {
-              Id: 841534158063459245
-            }
-          }
-          Overrides {
-            Name: "cs:HealthChange:tooltip"
-            String: "The amount to add to the player\'s health (negative for damage)"
-          }
-          Overrides {
             Name: "cs:ResourceChange:tooltip"
             String: "The amount to add to the resource (negative to remove, cannot go negative)"
           }
           Overrides {
             Name: "cs:Resource:tooltip"
             String: "The resource to modify (or blank if none)"
-          }
-          Overrides {
-            Name: "cs:PickupEffects:tooltip"
-            String: "On pick up, spawns this template"
-          }
-          Overrides {
-            Name: "cs:MaxResource:tooltip"
-            String: "A player cannot  have more than this amount of this resource (0 for unbounded)"
           }
         }
         WantsNetworking: true
@@ -109,7 +83,6 @@ Assets {
         Trigger {
           TeamSettings {
             IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
           }
           TriggerShape_v2 {
             Value: "mc:etriggershape:sphere"

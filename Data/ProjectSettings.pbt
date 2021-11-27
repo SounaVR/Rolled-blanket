@@ -1,3 +1,3 @@
 LeaderboardConfigs {
 }
-MainScene: "Lobby"
+MainScene: "Game"

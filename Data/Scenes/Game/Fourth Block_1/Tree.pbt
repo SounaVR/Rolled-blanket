@@ -1213,6 +1213,12 @@ Objects {
     Model {
     }
   }
+  InstanceHistory {
+    SelfId: 16646597836600837370
+    SubobjectId: 7877576274742251298
+    InstanceId: 9975345461799050602
+    TemplateId: 17271982909571189697
+  }
 }
 Objects {
   Id: 14701344027042853511
@@ -29461,6 +29467,12 @@ Objects {
     Model {
     }
   }
+  InstanceHistory {
+    SelfId: 17366324960578003953
+    SubobjectId: 8887794357628823593
+    InstanceId: 9975345461799050602
+    TemplateId: 17271982909571189697
+  }
 }
 Objects {
   Id: 9613726709360458485
@@ -33061,8 +33073,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 3.87906218
-      Y: -15.0215635
+      X: 12.7707
+      Y: -23.8097458
       Z: 1
     }
   }
@@ -34891,10 +34903,6 @@ Objects {
   ChildIds: 15008443825166796097
   UnregisteredParameters {
     Overrides {
-      Name: "cs:HealthChange"
-      Float: 0
-    }
-    Overrides {
       Name: "cs:Resource"
       String: "Points"
     }
@@ -34903,34 +34911,12 @@ Objects {
       Int: 10
     }
     Overrides {
-      Name: "cs:MaxResource"
-      Int: 0
-    }
-    Overrides {
-      Name: "cs:PickupEffects"
-      AssetReference {
-        Id: 841534158063459245
-      }
-    }
-    Overrides {
-      Name: "cs:HealthChange:tooltip"
-      String: "The amount to add to the player\'s health (negative for damage)"
-    }
-    Overrides {
       Name: "cs:ResourceChange:tooltip"
       String: "The amount to add to the resource (negative to remove, cannot go negative)"
     }
     Overrides {
       Name: "cs:Resource:tooltip"
       String: "The resource to modify (or blank if none)"
-    }
-    Overrides {
-      Name: "cs:PickupEffects:tooltip"
-      String: "On pick up, spawns this template"
-    }
-    Overrides {
-      Name: "cs:MaxResource:tooltip"
-      String: "A player cannot  have more than this amount of this resource (0 for unbounded)"
     }
   }
   WantsNetworking: true
@@ -35167,7 +35153,7 @@ Objects {
   Transform {
     Location {
       X: 2507.44141
-      Y: 13980.1309
+      Y: 14113.0156
       Z: -92.9430542
     }
     Rotation {
@@ -35306,16 +35292,16 @@ Objects {
   Name: "Portal VFX"
   Transform {
     Location {
-      X: 168.580078
-      Y: -7.28323317
-      Z: 787.487305
+      X: 40.577652
+      Y: -2958.77344
+      Z: 1528.51587
     }
     Rotation {
     }
     Scale {
       X: 1.79481447
-      Y: 2.80813408
-      Z: 1.54284573
+      Y: 9.05201244
+      Z: 3.32186151
     }
   }
   ParentId: 11593413272553221668
@@ -35462,16 +35448,16 @@ Objects {
   Name: "Goal"
   Transform {
     Location {
-      X: 2390.57812
-      Y: 25201.0977
+      X: 5577.125
+      Y: 30713.0156
       Z: 40.6886
     }
     Rotation {
     }
     Scale {
-      X: 1.62778425
-      Y: 1.62778425
-      Z: 1.62778425
+      X: 5.51536417
+      Y: 5.51536417
+      Z: 5.51536417
     }
   }
   ParentId: 8775329985759525053
